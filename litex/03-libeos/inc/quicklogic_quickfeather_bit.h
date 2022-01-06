@@ -1,0 +1,1 @@
+/home/ii/projects/litex-dev/litex-template/build/quicklogic_quickfeather/gateware/quicklogic_quickfeather_bit.h

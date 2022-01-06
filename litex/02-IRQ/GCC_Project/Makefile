@@ -66,7 +66,7 @@ $(elf_out): $(OBJS) $(QORC_LIB)
 $(OUTPUT_PATH):
 	mkdir -p $@
 
-output/%.o: %.c $(OUTPUT_PATH)
+output/%.o: %.c | $(OUTPUT_PATH)
 	@echo Compile: $<
 	$(CC) $(CFLAGS) -c $< -o $@
 
